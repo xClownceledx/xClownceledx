@@ -1,0 +1,68 @@
+/* index.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #8d7da7;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #131212;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8d7da7;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: x-large;
+    width: 200px;
+    margin-left: 100px;
+    }
+  
+  button:hover {
+    background-color: #8d7da7;
+    color: #000000;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #ff9900, 0 0 25px #ff9900, 0 0 50px #ff9900, 0 0 100px #ff9900;
+  }
+  
+  button:active {
+    background-color: #8d7da7;
+  }
+  
+  button:focus {
+    outline: #8d7da7;
+  }  
